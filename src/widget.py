@@ -24,4 +24,9 @@ def mask_account_card_number(name_number_account_card: str) -> str:
             name_card_two += number_account_card[1]
     return name_card_one + " " + name_card_two + " " + new_mask_card_number
 
-#print(mask_account_card_number("Счет 64686473678894779589"))
+
+def date_format(entry_date: str) -> str:
+    """Функция, которая преобразует дату в читабельный формат"""
+    date_list = entry_date[0:10].split("-")
+    new_date = date_list[2] + "." + date_list[1] + "." + date_list[0]
+    return new_date
