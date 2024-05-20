@@ -9,3 +9,6 @@
 """
 git clone git@github.com:matveinovikov1000/new_repository.git
 """
+
+##Тестирование:
+Тестами покрыты не менее 80% кода
