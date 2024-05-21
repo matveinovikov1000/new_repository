@@ -1,4 +1,3 @@
-import pytest
 from src.widget import mask_account_card_number
 from src.widget import date_format
 
