@@ -5,9 +5,7 @@ from src.generators import card_number_generator
 def test_filter_by_currency(transactions, currency_selection):
     expected_result = [939719570, 142264268, 895315941]
     result_list = []
-    filter(
-        lambda currency: currency["operationAmount"]["currency"]["code"] == currency_selection, transactions
-    )
+    filter(lambda currency: currency["operationAmount"]["currency"]["code"] == currency_selection, transactions)
     usd_transactions = filter_by_currency(transactions, "USD")
 
     for _ in range(3):
