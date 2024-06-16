@@ -1,7 +1,6 @@
 import json
 import logging
 
-
 logger_operat = logging.getLogger(__name__)
 file_handler_operat = logging.FileHandler("logs/utils.log", "w", encoding="utf8")
 file_formatter_operat = logging.Formatter("%(asctime)s %(filename)s %(levelname)s: %(message)s")
