@@ -6,8 +6,11 @@ def list_clean(entry_list: Iterable, mean_state: str = "EXECUTED") -> Iterable:
     функцию значение"""
     exit_list = []
     for dict_list in entry_list:
-        if dict_list["state"] == mean_state:
-            exit_list.append(dict_list)
+        try:
+            if dict_list["state"] == mean_state:
+                exit_list.append(dict_list)
+        except KeyError:
+            pass
     return exit_list
 
 
