@@ -17,3 +17,5 @@ git clone git@github.com:matveinovikov1000/new_repository.git
 В проекте реализован декоратор, который выдает логи на тему штатно отработала функция или нет
 
 ##Модули masks.py и utils.py логируются в файлы masks.log и utils.log соответственно
+
+##В модуле read_transactions.py реализовано чтение файлов transactions.csv и transactions_excel.xlsx

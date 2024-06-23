@@ -1,5 +1,4 @@
-from src.widget import mask_account_card_number
-from src.widget import date_format
+from src.widget import date_format, mask_account_card_number
 
 
 def test_mask_account_card_number(name_account_number):

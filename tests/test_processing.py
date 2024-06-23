@@ -1,6 +1,6 @@
 import pytest
-from src.processing import list_clean
-from src.processing import list_sort
+
+from src.processing import list_clean, list_sort
 
 
 @pytest.mark.parametrize(
