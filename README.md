@@ -19,3 +19,8 @@ git clone git@github.com:matveinovikov1000/new_repository.git
 ##Модули masks.py и utils.py логируются в файлы masks.log и utils.log соответственно
 
 ##В модуле read_transactions.py реализовано чтение файлов transactions.csv и transactions_excel.xlsx
+
+##Модуль selection_of_transactions.py включает в себя функции фильтрации списка транзакций
+
+##Модуль main.py является главным и реализует в себе функцию фильтрации списка транзакций по выбранным параметрам с
+использованием функций проекта
